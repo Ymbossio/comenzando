@@ -16,8 +16,6 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
     <>
-    <Trabajador title="Yovanis"/> {/* Enviamos parametro hacia el componente que estamos renderizando */} 
-    <Trabajador title="Desarrollador Webs"/>
-    <Trabajador title="Bossio" />
+    <Card nombre="Yovanis" edad={22} mensaje={true} ok="Hola mundo desde otros component en React"/>
     </>
 )

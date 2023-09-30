@@ -10,8 +10,8 @@ export function Trabajador({title}){
 
 
 
-export function Card({ nombre}){
+export function Card({ nombre, edad, mensaje, ok}){
     return <>
-        <h1>El nombre es: {nombre}</h1>
+        <h1>El nombre es: {nombre}, edad es:{edad}, mensaje es:{mensaje}, inform: {ok}</h1>
     </>
 }
